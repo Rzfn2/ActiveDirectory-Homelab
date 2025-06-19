@@ -55,11 +55,12 @@ Open `Ethernet0` → `Properties` → `Internet Protocol Version 4 (TCP/IPv4
 ----
 ### Install AD DS & DNS
 ----
-**Selecting `Add Roles and Features` to begin installing AD DS and DNS roles.**
+**Selecting `Add Roles and Features` to begin installing `AD DS` and `DNS` roles.**
+
 ![image](https://github.com/user-attachments/assets/03bf1373-982d-4ff0-b1f8-409087e0b255)
 
-
 **Role Selection screen `Active Directory Domain Services` and `DNS Server` are checked here.**
+
 ![image](https://github.com/user-attachments/assets/226568b9-fd3f-4487-b6c0-75a71628d79d)
 
 
@@ -79,7 +80,7 @@ NetBIOS domain name auto-populated as `ABDULLAH-AD`. This will be used in domain
 ### Create OUs & Users
 You can use either the Active Directory Users and Computers (ADUC) GUI or PowerShell. Example PowerShell snippet:
 ----
-**Launch Active Directory Users and Computers (ADUC) **
+Launch Active Directory Users and Computers (ADUC) 
 
 ![image](https://github.com/user-attachments/assets/19c57002-a5f9-4808-b41d-1090bce14636)
 
