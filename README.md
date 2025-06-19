@@ -41,7 +41,7 @@ This section explains how I installed and configured Active Directory Domain Ser
 
 Static IP configuration
 
-Open Ethernet0 → Properties → Internet Protocol Version 4 (TCP/IPv4) → Properties and fill in:
+Open `Ethernet0` → `Properties` → `Internet Protocol Version 4 (TCP/IPv4)` → `Properties` and fill in:
 
 | Setting | Value |
 |---------|-------|
@@ -55,20 +55,20 @@ Open Ethernet0 → Properties → Internet Protocol Version 4 (TCP/IPv4) �
 ----
 ### Install AD DS & DNS
 ----
-**Selecting “Add Roles and Features” to begin installing AD DS and DNS roles.**
+**Selecting `Add Roles and Features` to begin installing AD DS and DNS roles.**
 ![image](https://github.com/user-attachments/assets/03bf1373-982d-4ff0-b1f8-409087e0b255)
 
 
-**Role Selection screen — Active Directory Domain Services and DNS Server are checked here.**
+**Role Selection screen `Active Directory Domain Services` and `DNS Server` are checked here.**
 ![image](https://github.com/user-attachments/assets/226568b9-fd3f-4487-b6c0-75a71628d79d)
 
 
-Choosing “Add a new forest” and entering the domain name: Abdullah-AD.local. This creates your top-level AD forest.
+Choosing `Add a new forest` and entering the domain name: `Abdullah-AD.local`. This creates your top-level AD forest.
 
 ![image](https://github.com/user-attachments/assets/935a9311-ff86-40ab-9db9-3ccd4dd0288e)
 
 
-NetBIOS domain name auto-populated as ABDULLAH-AD. This will be used in domain logins like ABDULLAH-AD\Administrator.
+NetBIOS domain name auto-populated as `ABDULLAH-AD`. This will be used in domain logins like `ABDULLAH-AD\Administrator`.
 
 ![image](https://github.com/user-attachments/assets/586483f8-5f3a-4e08-88a8-39e46f7a4953)
 
@@ -144,14 +144,14 @@ This section outlines the configuration of the Windows 11 client machine and its
 ### Step-by-Step Setup 
 
 Navigate to System Properties to change the computer name and domain settings. 
-- This is accessed via Control Panel > System
+- This is accessed via `Control Panel` > `System`
 
-Clicking “Change settings” and setting the hostname to WINCLIENT. This helps identify the machine within the domain.
-In the “Domain” field, enter Abdullah-AD.local to begin joining the client to the AD environment.
+Clicking `Change settings` and setting the hostname to CLIENT01. This helps identify the machine within the domain.
+In the `Domain` field, enter `Abdullah-AD.local` to begin joining the client to the AD environment.
 
 ![image](https://github.com/user-attachments/assets/b1bc41e7-0e17-40ca-8e76-9d1d131df6a1)
 
-Prompt appears requesting credentials — this is where you enter Administrator and the domain admin password.
+Prompt appears requesting credentials, this is where you enter `Administrator` and the domain `admin password`.
 
 ![image](https://github.com/user-attachments/assets/65c60a44-06c4-4632-9eb6-2801e8d4e90a)
 
