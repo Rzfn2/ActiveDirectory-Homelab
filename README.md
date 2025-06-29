@@ -167,3 +167,8 @@ Verify with `whoami` that you should see the domain prefix.
 
 Success! The machine is now joined to the domain. You receive a confirmation message and must restart the computer.
 
+## 👨‍💻 Author
+
+Made by [Abdullah Banwair](https://github.com/Rzfn2) — feel free to reach out!
+
+Suggestions, contributions, and pull requests are welcome!
